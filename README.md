@@ -87,7 +87,7 @@
 </li>
 <li><a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account">Adicione a nova SSH key na sua conta do GitHub</a>:
 <ol>
-<li>Copie o conteúdo do arquivo id_ed25519.pub: <code>clip < ~/.ssh/id_ed25519.pub</code></li>
+<li>No Git Bash: Copie o conteúdo do arquivo id_ed25519.pub: <code>clip < ~/.ssh/id_ed25519.pub</code></li>
 <li><a href="https://github.com/settings/keys">No GitHub</a>: Your Profile >> Settings >> SSH and GPG keys >> New SSH key
 <li>Cole o conteúdo da chave pública</li>
 </ol>
@@ -97,6 +97,60 @@
 <li><code>yes</code></li>
 </ol>
 </li>
+<li>Criação e configurações iniciais concluídas!</li>
+</ol>
+
+<h4> INSTALAÇÃO INTELLIJ IDEA COMMUNITY </h4>
+<ol>
+<li>Entre no <a href="https://www.jetbrains.com/idea/download/#section=windows">site da Jetbrains</a></li>
+<li>Escolha a opção Community e faça o Download</li>
+<li>Siga com Next</li>
+<li>Installation Options:
+<ol>
+<li>64-bit launcher (caso seu sistema seja 64-bit, caso não, selecione 32-bit)</li>
+<li>Add "Open Folder as Project"</li>
+<li>.java - .groovy - .kt - .kts</li>
+<li>Add lauchers dir to the PATH</li>
+<li>Next</li>
+</ol>
+</li>
+<li>Install</li>
+<li>Para finalizar a instalação, escolha a opção Reebot later</li>
+<li>Configurações Iniciais:</li>
+<ol>
+<li>Aceite os termos: I confirm that I have... >> Confirm</li>
+<li>Data Sharing >> Send Anonymous Statistics</li>
+</ol>
+<li>Instalação e configurações iniciais concluídas!</li>
+</ol>
+
+<h4>INSTALAÇÃO VISUAL STUDIO CODE</h4>
+<ol>
+<li>Entre no site do Visua Studio Code e faça o <a href="https://code.visualstudio.com/">"Download for windows"</a></li>
+<li>Espere o download concluir e execute o arquivo</li>
+<li>Install >> Next >> Next ... Finish</li>
+<li>Pesquise o VS Code nas suas aplicações</li>
+<li><a href="https://code.visualstudio.com/docs/languages/java">Configuração para desenvolvimento Java:</a>
+<ol>
+<li>Abrir o Vs code</li>
+<li>Abrir o menu de extensões: (Ctrl + Shift + X)</li>
+<li>Colar o comando: <code>vscode:extension/vscjava.vscode-java-pack</code></li>
+</ol>
+</li>
+<li>Instalação e configurações iniciais concluídas!</li>
+</ol>
+
+<h4>INSTALAÇÃO ECLIPSE IDE</h4>
+<ol>
+<li><a href="https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2022-06/R/eclipse-jee-2022-06-R-win32-x86_64.zip">Entre no site oficial do Eclipse Foundation e faça o Download</a></li>
+<li>Execute o arquivo</li>
+<li>Escolha segunda a opção: Eclipse IDE for Enterprise Java and Web Developers</li>
+<li>Clique no folder da primeira opção (Java 17 + VM) e selecione o JDK instalado na sua máquina</li>
+<li>Mantenha as opções "create start menu entry" e "create desktop shortcut"</li>
+<li>Install</li>
+<li>Accept now</li>
+<li>Launch</li>
+<li>Pesquise o Eclipse IDE nas suas aplicações</li>
 <li>Criação e configurações iniciais concluídas!</li>
 </ol>
 
@@ -205,24 +259,20 @@
 <ol>
 <li>Entre no <a href="https://www.jetbrains.com/idea/download/#section=linux">site da Jetbrains</a></li>
 <li>Escolha a opção Community e faça o Download</li>
-<li>Siga com Next</li>
-<li>Installation Options:
+<li>Descompacte a pasta
+<li>No Terminal (Ctrl + Alt + T):
 <ol>
-<li>64-bit launcher (caso seu sistema seja 64-bit, caso não, selecione 32-bit)</li>
-<li>Add "Open Folder as Project"</li>
-<li>.java - .groovy - .kt - .kts</li>
-<li>Add lauchers dir to the PATH</li>
-<li>Next</li>
-</ol>
-</li>
-<li>Install</li>
-<li>Para finalizar a instalação, escolha a opção Reebot later</li>
+<li>Entre na pasta descompactada: <code>cd Downloads/IdealC</code></li>
+<li>Entre na pasta bin: <code>cd bin</code></li>
+<li>Execute o arquivo de instalação idea.sh: <code>./idea.sh</code></li>
 <li>Configurações Iniciais:</li>
 <ol>
 <li>Aceite os termos: I confirm that I have... >> Confirm</li>
 <li>Data Sharing >> Send Anonymous Statistics</li>
 </ol>
 <li>Instalação e configurações iniciais concluídas!</li>
+</ol>
+</li>
 </ol>
 
 <h4>INSTALAÇÃO VISUAL STUDIO CODE</h4>
