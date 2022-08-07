@@ -1,4 +1,4 @@
-<h2>WINDOWS</h2>
+<h2>🪟  WINDOWS</h2>
 <h4>INSTALAÇÃO OPENJDK 17.0.4+8 Azul Zulu</h4>
 <ol>
 <li><a href="https://www.azul.com/downloads/?package=jdk">Entre no site oficial da Azul</a></li>
