@@ -167,7 +167,7 @@
 <li><code>sudo update-alternatives --config java</code></li>
 </ol>
 <li>Copie e guarde o caminho de instalação do Java, no meu caso: <code>/usr/lib/jvm/java-17-openjdk-amd64/bin/java</code></li>
-<li>Vamos configurar a variável em ambiente <code>JAVA_HOME</code>:</li>
+<li>Configure a variável em ambiente <code>JAVA_HOME</code>:</li>
 <ol>
 <li>Abra o arquivo de configuração .bashrc. (Vou utilizar o editor gedit): <code>sudo gedit ~/.bashrc</code></li>
 <li>Copie o código abaixo e cole no final do arquivo .bashrc (Observe o caminho do JAVA_HOME):<br>
@@ -307,4 +307,154 @@
 <li>Launch</li>
 <li>Pesquise o Eclipse IDE nas suas aplicações</li>
 <li>Instalação e configurações iniciais concluídas!</li>
+</ol>
+<hr>
+
+<h2>🍎 macOS</h2>
+<h4>INSTALAÇÃO OPENJDK 17.0.4+8 Azul Zulu</h4>
+<ol>
+<li>Abra o terminal</li>
+<li>Verifique se você tem o Java instalado: <code> java --version </code </li>
+<li><a href="https://www.azul.com/downloads/?package=jdk">Entre no site oficial da Azul</a></li>
+<li>Faça o Download do arquivo <a href="https://cdn.azul.com/zulu/bin/zulu17.36.13-ca-jdk17.0.4-macosx_aarch64.dmg">.dmg</a> (Azul Zulu: 17.0.4+8 x86 64-bit)
+<li>Execute o arquivo: Next >> Next >> ... >> Finish</li>
+<li>Verifique se o Java realmente foi instalado: <code>java --version</code></li>
+<li>Configure a variável em ambiente <code>JAVA_HOME</code>:
+<ol>
+<li>No Terminal: <code> cd /Library/Java/JavaVirtualMachines</code></li>
+<li>Crie o arquivo bash_profile (Vou utilizar o editor nano): <code>nano ~/ .bash_profile</code></li>
+<li>Copie o código a seguir e cole no final do arquivo .bash_profile (Observe o caminho do JAVA_HOME): JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-.jdk/Contents/Home</li>
+<li>Salve o arquivo .bash_profile</li>
+</ol>
+<li>Aplicando o caminho da variável: <code>source ~/.bash_profile</code></li>
+<li>Confira o caminho da variável <code>JAVA_HOME</code>: <code>echo $JAVA_HOME</code></li>
+<li>Instalação e configurações iniciais concluídas!</li>
+</ol>
+
+<h4>INSTALAÇÃO GIT</h4>
+<ol>
+<li>Abra o terminal (Ctrl + Alt + t)</li>
+<li>Verifique se você tem o GIT instalado: <code>git --version</code></li>
+<li>Caso não, <a href="https://brew.sh/">instale através do Homebrew</a>: 
+<ol>
+<li><code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code></li>
+<li><code>brew install git</code></li>
+</ol>
+<li>Verifique se o GIT realmente foi instalado: <code>git --version</code></li>
+<li>Configurações iniciais:
+<ol>
+<li>Configurar o nome de usuário: <code>git config --global user.name "Seu nome"</code></li>
+<li>Configurar o endereço de e-mail (o mesmo do GitHub): <code>git config --global user.email seu_email_do_GitHub@email.br</code></li>
+<li>Conferir a lista de configurações: <code>git config --list</code></li>
+</ol>
+</li>
+<li>Instalação e configurações iniciais concluídas!</li>
+</ol>
+
+<h4>GERAR ACCESS TOKEN</h4>
+<ol>
+<li>Faça seu login no GitHub</li>
+<li><a href="https://github.com/settings/tokens/new">Gere um access token</a>: Your Profile >> Settings >> Developer settings >> Personal access tokens >> Generate new token 
+<ol>
+<li>Note: Ecolha um nome para o token</li>
+<li>Expiration: No expiration</li>
+<li>Select scopes: Selecione todos os campos</li>
+<li>Generate token</li>
+</ol>
+</li>
+<li>Copie a String referente ao token</li> 
+<li>Aalve em um lugar seguro que você consiga consultar posteriormente</li>
+<li>Criação e configurações iniciais concluídas!</li>
+</ol>
+
+<h4>GERAR SSH KEY</h4>
+<ol>
+<li>Consulte a <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh">documentação oficial</a></li>
+<li>Verifique se <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys">existe alguma SSH key</a> na sua máquina: 
+<ol>
+<li>No Terminal: <code>ls -al ~/.ssh</code></li>
+<li>Se sim, para ser válido, o GitHub suporta qualquer um desses nomes de arquivos a seguir:
+<ul>
+<li>id_rsa.pub</li>
+<li>id_ecdsa.pub</li>
+<li>id_ed25519.pub</li>
+</ul>
+</li>
+</ol>
+<li>Caso não exista, <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent">gere uma SSH key</a>:
+<ol>
+<li>No Terminal: <code>ssh-keygen -t ed25519 -C "seu_email_do_GitHub@example.com"</code></li>
+<li>Caso a <em>opção acima não funcione</em>: <code>ssh-keygen -t rsa -b 4096 -C "seu_email_do_GitHub@example.com"</code></li>
+<li>Pressione Enter</li>
+<li>Pressione Enter</li>
+<li>Pressione Enter</li>
+</ol>
+</li>
+<li><a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account">Adicione a nova SSH key na sua conta do GitHub</a>:
+<ol>
+<li>No Terminal: Copie o conteúdo do arquivo id_ed25519.pub: <code>pbcopy < ~/.ssh/id_ed25519.pub</code></li>
+<li><a href="https://github.com/settings/keys">No GitHub</a>: Your Profile >> Settings >> SSH and GPG keys >> New SSH key
+<li>Cole o conteúdo da chave pública</li>
+</ol>
+<li>Teste a conexão SSH: 
+<ol>
+<li>No Terminal: <code>ssh -T git@github.com</code></li>
+<li><code>yes</code></li>
+</ol>
+</li>
+<li>Criação e configurações iniciais concluídas!</li>
+</ol>
+
+<h4> INSTALAÇÃO INTELLIJ IDEA COMMUNITY </h4>
+<ol>
+<li>Entre no <a href="https://www.jetbrains.com/idea/download/#section=mac">site da Jetbrains</a></li>
+<li>Escolha a opção Community e faça o Download</li>
+<li>Siga com Next</li>
+<li>Installation Options:
+<ol>
+<li>64-bit launcher (caso seu sistema seja 64-bit, caso não, selecione 32-bit)</li>
+<li>Add "Open Folder as Project"</li>
+<li>.java - .groovy - .kt - .kts</li>
+<li>Add lauchers dir to the PATH</li>
+<li>Next</li>
+</ol>
+</li>
+<li>Install</li>
+<li>Para finalizar a instalação, escolha a opção Reebot later</li>
+<li>Configurações Iniciais:</li>
+<ol>
+<li>Aceite os termos: I confirm that I have... >> Confirm</li>
+<li>Data Sharing >> Send Anonymous Statistics</li>
+</ol>
+<li>Instalação e configurações iniciais concluídas!</li>
+</ol>
+
+<h4>INSTALAÇÃO VISUAL STUDIO CODE</h4>
+<ol>
+<li>Entre no site do Visua Studio Code e faça o <a href="https://code.visualstudio.com/">"Download for macOs"</a></li>
+<li>Espere o download concluir e execute o arquivo</li>
+<li>Install >> Next >> Next ... Finish</li>
+<li>Pesquise o VS Code nas suas aplicações</li>
+<li><a href="https://code.visualstudio.com/docs/languages/java">Configuração para desenvolvimento Java:</a>
+<ol>
+<li>Abrir o Vs code</li>
+<li>Abrir o menu de extensões: (Ctrl + Shift + X)</li>
+<li>Colar o comando: <code>vscode:extension/vscjava.vscode-java-pack</code></li>
+</ol>
+</li>
+<li>Instalação e configurações iniciais concluídas!</li>
+</ol>
+
+<h4>INSTALAÇÃO ECLIPSE IDE</h4>
+<ol>
+<li><a href="https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2022-06/R/eclipse-jee-2022-06-R-macosx-cocoa-x86_64.dmg">Entre no site oficial do Eclipse Foundation e faça o Download</a></li>
+<li>Execute o arquivo</li>
+<li>Escolha segunda a opção: Eclipse IDE for Enterprise Java and Web Developers</li>
+<li>Clique no folder da primeira opção (Java 17 + VM) e selecione o JDK instalado na sua máquina</li>
+<li>Mantenha as opções "create start menu entry" e "create desktop shortcut"</li>
+<li>Install</li>
+<li>Accept now</li>
+<li>Launch</li>
+<li>Pesquise o Eclipse IDE nas suas aplicações</li>
+<li>Criação e configurações iniciais concluídas!</li>
 </ol>
