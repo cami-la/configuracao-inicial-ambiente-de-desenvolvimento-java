@@ -1,3 +1,32 @@
+<h2>WINDOWS</h2>
+<h4>INSTALAÇÃO OPENJDK 17.0.4+8 Azul Zulu</h4>
+<ol>
+<li><a href="https://www.azul.com/downloads/?package=jdk">Entre no site oficial da Azul</a></li>
+<li>Faça o Download do arquivo <a href="https://cdn.azul.com/zulu/bin/zulu17.36.13-ca-jdk17.0.4-linux_x64.zip">.zip</a> (Azul Zulu: 17.0.4+8 x86 64-bit)
+</li>
+<li>No seu Computador: Vá no Drive -> C://Arquivo de Programas</li>
+<li>Caso não tenha um diretório com o nome Java, crie</li>
+<li>Entre neste diretório e descompacte o download do zip JDK Azul Zulu 17.0.4+8 neste diretório</li>
+<li>Copie caminho do diretório que você descompactou o zip JDK Azul Zulu 17.0.4+8</li>
+<li>Configuração de ambiente <code>JAVA_HOME</code>:</li>
+<ol>
+<li>Menu iniciar >> Editar as varáveis de ambiente do sistema</li>
+<li>Irá abrir a janela Propriedades do Sistema, escolha a aba Avançado, em seguida clique em variáveis de Ambiente</li>
+<li>Na janela Variáveis de Ambiente,  crie um novo Variáveis do sistema</li>
+<li>Abrirá uma janela: Nova Variável de Sistema</li>
+<li>Nome da variável: <code>JAVA_HOME</code></li>
+<li>Valor da variável: Cole o caminho do diretório que você descompactou o zip JDK Azul Zulu 17.0.4+8 >> Ok</li>
+<li>Na mesma janela Variáveis do Sistema, localize a variável Path, selecione e clique a opção Editar...</li>
+<li>Clique na opção Novo e cole o mesmo caminho que você descompactou o JDK Azul Zulu 17.0.4+8 acrescentando <code>\bin</code></li>
+<li>Continue com o Path selecionado e clique na opção Mover para Cima até chegar no topo</li>
+</ol>
+<li>Abra o Prompt de Comando: Menu iniciar >> cmd</li>
+<li>Execute: <code>java --version</code></li>
+<li>Instalação e configurações iniciais concluídas!</li>
+</ol>
+
+<hr>
+
 <h2>🐧 LINUX</H2>
 <h4>INSTALAÇÃO OPENJDK 17</h4>
 <ol>
