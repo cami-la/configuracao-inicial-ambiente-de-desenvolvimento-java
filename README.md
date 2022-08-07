@@ -97,3 +97,62 @@
 </li>
 <li>Criação e configurações iniciais concluídas!</li>
 </ol>
+
+<h4>INSTALAÇÃO INTELLIJ IDEA COMMUNITY</h4>
+<li>Show Applications >> Ubuntu Software >> Explore >> Intellij IDEA Community >> Install</li>
+<ol>
+<li>Entre no <a href="https://www.jetbrains.com/idea/download/#section=linux">site da Jetbrains</a></li>
+<li>Escolha a opção Community e faça o Download</li>
+<li>Siga com Next</li>
+<li>Installation Options:
+<ol>
+<li>64-bit launcher (caso seu sistema seja 64-bit, caso não, selecione 32-bit)</li>
+<li>Add "Open Folder as Project"</li>
+<li>.java - .groovy - .kt - .kts</li>
+<li>Add lauchers dir to the PATH</li>
+<li>Next</li>
+</ol>
+</li>
+<li>Install</li>
+<li>Para finalizar a instalação, escolha a opção Reebot later</li>
+<li>Configurações Iniciais:</li>
+<ol>
+<li>Aceite os termos: I confirm that I have... >> Confirm</li>
+<li>Data Sharing >> Send Anonymous Statistics</li>
+</ol>
+<li>Instalação e configurações iniciais concluídas!</li>
+</ol>
+
+<h4>INSTALAÇÃO VISUAL STUDIO CODE</h4>
+<li>Show Applications >> Ubuntu Software >> Explore >> Visual Studio Code >> Install</li>
+
+<ol>
+<li>Entre no site oficial do Visual Studio Code</li>
+<li>Faça o <strong><a href="https://code.visualstudio.com/">DOWNLOAD</a></strong> do arquivo com a extensão .deb</li>
+<li>Escolha a opção Open With: Software install (default)</li>
+<li>Pesquise o VS code nas suas aplicações</li>
+<li><a href="https://code.visualstudio.com/docs/languages/java">Configuração para desenvolvimento Java:</a>
+<ol>
+<li>Abrir o Vs code</li>
+<li>Abrir o menu de extensões: (Ctrl + Shift + X)</li>
+<li>Colar o comando: <code>vscode:extension/vscjava.vscode-java-pack</code></li>
+</ol>
+</li>
+<li>Instalação e configurações iniciais concluídas!</li>
+</ol>
+
+<h4>INSTALAÇÃO ECLIPSE IDE</h4>
+<li>Show Applications >> Ubuntu Software >> Explore >> Eclipse >> Install</li>
+<ol>
+<li><a href="https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2022-06/R/eclipse-inst-jre-linux64.tar.gz">Entre no site oficial do Eclipse Foundation e faça o Download</a></li>
+<li>Descompacte a pasta</li>
+<li>Procure o arquivo "eclipse-inst" e execute</li>
+<li>Escolha segunda a opção: Eclipse IDE for Enterprise Java and Web Developers</li>
+<li>Clique no folder da primeira opção e selecione o JDK instalado na sua máquina</li>
+<li>Mantenha as opções "create start menu entry" e "create desktop shortcut"</li>
+<li>Install</li>
+<li>Accept now</li>
+<li>Launch</li>
+<li>Pesquise o Eclipse IDE nas suas aplicações</li>
+<li>Instalação e configurações iniciais concluídas!</li>
+</ol>
