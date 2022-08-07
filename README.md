@@ -24,7 +24,27 @@
 <li>Execute: <code>java --version</code></li>
 <li>Instalação e configurações iniciais concluídas!</li>
 </ol>
+<p align="right"><em>Créditos: <a href="https://www.youtube.com/watch?v=laC0fiI-IOM">DevSuperior</a></em></p>
 
+<h4>INSTALAÇÃO GIT</h4>
+<ol>
+<li><a href ="https://git-scm.com/downloads">Entre no site oficial do GIT</a></li>
+<li>Escolha a opção Windows e o instalador será baixado automáticamente</li>
+<li>Mantenha as opções pré selecionadas</li>
+<li>Next</li>
+<li>Install</li>
+<li>Antes de finaizar a instalação, selecione a opção "Lauch Git Bash"</li>
+<li>No Git Bash, verifique se o GIT está instalado: <code>git --version</code></li>
+<li>Configurações iniciais:
+<ol>
+<li>Configurar o nome de usuário: <code>git config --global user.name "Seu nome"</code></li>
+<li>Configurar o endereço de e-mail (o mesmo do GitHub): <code>git config --global user.email seu_email_do_GitHub@email.br</code>
+</li> 
+<li>Verifique as configurações: <code>git config --list</code></li>
+</ol>
+</li>
+<li>Instalação e configurações iniciais concluídas!</li>
+</ol>
 <hr>
 
 <h2>🐧 LINUX</H2>
