@@ -123,38 +123,8 @@
 </ol>
 <li>Instalação e configurações iniciais concluídas!</li>
 </ol>
-
-<h4>INSTALAÇÃO VISUAL STUDIO CODE</h4>
-<ol>
-<li>Entre no site do Visua Studio Code e faça o <a href="https://code.visualstudio.com/">"Download for windows"</a></li>
-<li>Espere o download concluir e execute o arquivo</li>
-<li>Install >> Next >> Next ... Finish</li>
-<li>Pesquise o VS Code nas suas aplicações</li>
-<li><a href="https://code.visualstudio.com/docs/languages/java">Configuração para desenvolvimento Java:</a>
-<ol>
-<li>Abrir o Vs code</li>
-<li>Abrir o menu de extensões: (Ctrl + Shift + X)</li>
-<li>Colar o comando: <code>vscode:extension/vscjava.vscode-java-pack</code></li>
-</ol>
-</li>
-<li>Instalação e configurações iniciais concluídas!</li>
-</ol>
-
-<h4>INSTALAÇÃO ECLIPSE IDE</h4>
-<ol>
-<li><a href="https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2022-06/R/eclipse-jee-2022-06-R-win32-x86_64.zip">Entre no site oficial do Eclipse Foundation e faça o Download</a></li>
-<li>Execute o arquivo</li>
-<li>Escolha segunda a opção: Eclipse IDE for Enterprise Java and Web Developers</li>
-<li>Clique no folder da primeira opção (Java 17 + VM) e selecione o JDK instalado na sua máquina</li>
-<li>Mantenha as opções "create start menu entry" e "create desktop shortcut"</li>
-<li>Install</li>
-<li>Accept now</li>
-<li>Launch</li>
-<li>Pesquise o Eclipse IDE nas suas aplicações</li>
-<li>Criação e configurações iniciais concluídas!</li>
-</ol>
-
 <hr>
+
 <h2>🐧 LINUX - UBUNTU</H2>
 <h4>INSTALAÇÃO OPENJDK 17</h4>
 <ol>
@@ -273,40 +243,6 @@
 <li>Instalação e configurações iniciais concluídas!</li>
 </ol>
 </li>
-</ol>
-
-<h4>INSTALAÇÃO VISUAL STUDIO CODE</h4>
-<li>Show Applications >> Ubuntu Software >> Explore >> Visual Studio Code >> Install</li>
-
-<ol>
-<li>Entre no site oficial do Visual Studio Code</li>
-<li>Faça o <strong><a href="https://code.visualstudio.com/">DOWNLOAD</a></strong> do arquivo com a extensão .deb</li>
-<li>Escolha a opção Open With: Software install (default)</li>
-<li>Pesquise o VS code nas suas aplicações</li>
-<li><a href="https://code.visualstudio.com/docs/languages/java">Configuração para desenvolvimento Java:</a>
-<ol>
-<li>Abrir o Vs code</li>
-<li>Abrir o menu de extensões: (Ctrl + Shift + X)</li>
-<li>Colar o comando: <code>vscode:extension/vscjava.vscode-java-pack</code></li>
-</ol>
-</li>
-<li>Instalação e configurações iniciais concluídas!</li>
-</ol>
-
-<h4>INSTALAÇÃO ECLIPSE IDE</h4>
-<li>Show Applications >> Ubuntu Software >> Explore >> Eclipse >> Install</li>
-<ol>
-<li><a href="https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2022-06/R/eclipse-inst-jre-linux64.tar.gz">Entre no site oficial do Eclipse Foundation e faça o Download</a></li>
-<li>Descompacte a pasta</li>
-<li>Procure o arquivo "eclipse-inst" e execute</li>
-<li>Escolha segunda a opção: Eclipse IDE for Enterprise Java and Web Developers</li>
-<li>Clique no folder da primeira opção e selecione o JDK instalado na sua máquina</li>
-<li>Mantenha as opções "create start menu entry" e "create desktop shortcut"</li>
-<li>Install</li>
-<li>Accept now</li>
-<li>Launch</li>
-<li>Pesquise o Eclipse IDE nas suas aplicações</li>
-<li>Instalação e configurações iniciais concluídas!</li>
 </ol>
 <hr>
 
@@ -428,36 +364,7 @@
 </ol>
 <li>Instalação e configurações iniciais concluídas!</li>
 </ol>
-
-<h4>INSTALAÇÃO VISUAL STUDIO CODE</h4>
-<ol>
-<li>Entre no site do Visua Studio Code e faça o <a href="https://code.visualstudio.com/">"Download for macOs"</a></li>
-<li>Espere o download concluir e execute o arquivo</li>
-<li>Install >> Next >> Next ... Finish</li>
-<li>Pesquise o VS Code nas suas aplicações</li>
-<li><a href="https://code.visualstudio.com/docs/languages/java">Configuração para desenvolvimento Java:</a>
-<ol>
-<li>Abrir o Vs code</li>
-<li>Abrir o menu de extensões: (Ctrl + Shift + X)</li>
-<li>Colar o comando: <code>vscode:extension/vscjava.vscode-java-pack</code></li>
-</ol>
-</li>
-<li>Instalação e configurações iniciais concluídas!</li>
-</ol>
-
-<h4>INSTALAÇÃO ECLIPSE IDE</h4>
-<ol>
-<li><a href="https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2022-06/R/eclipse-jee-2022-06-R-macosx-cocoa-x86_64.dmg">Entre no site oficial do Eclipse Foundation e faça o Download</a></li>
-<li>Execute o arquivo</li>
-<li>Escolha segunda a opção: Eclipse IDE for Enterprise Java and Web Developers</li>
-<li>Clique no folder da primeira opção (Java 17 + VM) e selecione o JDK instalado na sua máquina</li>
-<li>Mantenha as opções "create start menu entry" e "create desktop shortcut"</li>
-<li>Install</li>
-<li>Accept now</li>
-<li>Launch</li>
-<li>Pesquise o Eclipse IDE nas suas aplicações</li>
-<li>Criação e configurações iniciais concluídas!</li>
-</ol>
+<hr>
 
 <h2> 🤝 Contribuindo </h2>
 
