@@ -229,20 +229,24 @@
 <ol>
 <li>Entre no <a href="https://www.jetbrains.com/idea/download/#section=linux">site da Jetbrains</a></li>
 <li>Escolha a opção Community e faça o Download</li>
-<li>Descompacte a pasta
-<li>No Terminal (Ctrl + Alt + T):
+<li>Siga com Next</li>
+<li>Installation Options:
 <ol>
-<li>Entre na pasta descompactada: <code>cd Downloads/IdealC</code></li>
-<li>Entre na pasta bin: <code>cd bin</code></li>
-<li>Execute o arquivo de instalação idea.sh: <code>./idea.sh</code></li>
+<li>64-bit launcher (caso seu sistema seja 64-bit, caso não, selecione 32-bit)</li>
+<li>Add "Open Folder as Project"</li>
+<li>.java - .groovy - .kt - .kts</li>
+<li>Add lauchers dir to the PATH</li>
+<li>Next</li>
+</ol>
+</li>
+<li>Install</li>
+<li>Para finalizar a instalação, escolha a opção Reebot later</li>
 <li>Configurações Iniciais:</li>
 <ol>
 <li>Aceite os termos: I confirm that I have... >> Confirm</li>
 <li>Data Sharing >> Send Anonymous Statistics</li>
 </ol>
 <li>Instalação e configurações iniciais concluídas!</li>
-</ol>
-</li>
 </ol>
 <hr>
 
