@@ -1,7 +1,7 @@
 <h2>🪟  WINDOWS</h2>
 <h4>INSTALAÇÃO OPENJDK 17.0.4+8 Azul Zulu</h4>
 <ol>
-<li><a href="https://www.azul.com/downloads/?package=jdk">Entre no site oficial da Azul</a></li>
+<li><a href="https://cdn.azul.com/zulu/bin/zulu17.36.19-ca-jdk17.0.4.1-win_i686.zip">Entre no site oficial da Azul</a></li>
 <li>Faça o Download do arquivo <a href="https://cdn.azul.com/zulu/bin/zulu17.36.13-ca-jdk17.0.4-linux_x64.zip">.zip</a> (Azul Zulu: 17.0.4+8 x86 64-bit)
 </li>
 <li>No seu Computador: Vá no Drive -> C://Arquivo de Programas</li>
